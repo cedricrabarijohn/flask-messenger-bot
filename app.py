@@ -2,6 +2,7 @@
 import random
 from flask import Flask, request
 from pymessenger.bot import Bot
+import requests
 
 app = Flask(__name__)
 # This is page access token that you get from facebook developer console.
